@@ -5,7 +5,7 @@
 
 Electrical & Computer Engineering student.
 
-Learning 書道 (calligraphy) and languages — 汉语,
+Hobbies: learning languages (汉语) and 書道 (calligraphy) —
 because characters are just another form of code.
 
 ---
