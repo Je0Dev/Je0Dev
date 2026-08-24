@@ -1,1 +1,1 @@
-*learning* new things
+*learning* | *thinking* 
