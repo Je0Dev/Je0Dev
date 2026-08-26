@@ -1,1 +1,5 @@
-*learning* | *thinking* 
+- i am George
+- i am a human
+- i like learning new things
+- i may use ai
+- thank you for reading
