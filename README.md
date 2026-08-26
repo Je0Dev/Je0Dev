@@ -1,37 +1,12 @@
 ```bash
 ┌──(george㉿mastro)-[~/Projects/personal_info] (main ✔)
-└─$ git checkout -b feat/add-readme
+└─$ git checkout -b feat/add-readme && cat about_me.json | tail -n 9
 
 ┌──(george㉿mastro)-[~/Projects/personal_info] (feat/add-readme ✔)
-└─$ cat about_me.json | tail -n 9
-  "name": "George",
-  "species": "Human",
-  "interests": [
-    "Learning",
-    "Creating",
-    "Tinkering"
-  ],
-  "status": "doing something",
-  "license": "MIT",
-  "copyright": "© 2026 contributor. All rights reserved."
-}
-
-┌──(george㉿mastro)-[~/Projects/personal_info] (feat/add-readme ✔)
-└─$ git commit -am "feat(readme): add initial profile config"
-[feat/add-readme e4f5a6b] feat(readme): add initial profile config
- 1 file changed, 10 insertions(+)
-
-┌──(george㉿mastro)-[~/Projects/personal_info] (feat/add-readme ✔)
-└─$ git checkout -b feat/skillset
+└─$ git commit -am "feat(readme): add initial profile config" && git checkout -b feat/skillset
 
 ┌──(george㉿mastro)-[~/Projects/personal_info] (feat/skillset ✔)
-└─$ grep -iE "technology|confidence about_me.json || find . -name "*.svg"
-
-┌──(george㉿mastro)-[~/Projects/personal_info] (feat/skillset ✔)
-└─$ git commit -am "feat(skills): configure language & toolset badges"
-
-┌──(george㉿mastro)-[~/Projects/personal_info] (feat/skillset ✔)
-└─$ git log -2 --oneline
+└─$ grep -iE "technology|confidence_level" about_me.json || find . -name "*.svg" && git commit -am "feat(skills): configure language & toolset badges" && git log -2 --oneline
 
 ```
 <p align="left">
