@@ -1,7 +1,6 @@
 ```bash
 ┌──(george㉿mastro)-[~/Projects/personal_info] (main ✔)
 └─$ git checkout -b feat/add-readme
-Switched to a new branch 'feat/add-readme'
 
 ┌──(george㉿mastro)-[~/Projects/personal_info] (feat/add-readme ✔)
 └─$ cat about_me.json | tail -n 9
@@ -24,26 +23,16 @@ Switched to a new branch 'feat/add-readme'
 
 ┌──(george㉿mastro)-[~/Projects/personal_info] (feat/add-readme ✔)
 └─$ git checkout -b feat/skillset
-Switched to a new branch 'feat/skillset'
 
 ┌──(george㉿mastro)-[~/Projects/personal_info] (feat/skillset ✔)
-└─$ echo "Fetching developer tech stack..."
-Fetching developer tech stack...
-
-┌──(george㉿mastro)-[~/Projects/personal_info] (feat/skillset ✔)
-└─$ grep -iE "stack|languages|tools" about_me.json || find . -name "*.svg" && echo "SUCCESS"
-./assets/badges/tech_stack.svg
-SUCCESS
+└─$ grep -iE "technology|confidence about_me.json || find . -name "*.svg"
 
 ┌──(george㉿mastro)-[~/Projects/personal_info] (feat/skillset ✔)
 └─$ git commit -am "feat(skills): configure language & toolset badges"
-[feat/skillset c8d9e0f] feat(skills): configure language & toolset badges
- 1 file changed, 15 insertions(+)
 
 ┌──(george㉿mastro)-[~/Projects/personal_info] (feat/skillset ✔)
 └─$ git log -2 --oneline
-c8d9e0f (HEAD -> feat/skillset, origin/feat/skillset) feat(skills): configure personal badges
-e4f5a6b (feat/add-readme) feat(readme): add initial profile config about myself
+
 ```
 <p align="left">
   <!-- HTML5 - 90% -->
