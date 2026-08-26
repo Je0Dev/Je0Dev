@@ -45,9 +45,6 @@ SUCCESS
 c8d9e0f (HEAD -> feat/skillset, origin/feat/skillset) feat(skills): configure language & toolset badges
 e4f5a6b (feat/add-readme) feat(readme): add initial profile config about myself
 ```
-### 🛠️ Languages & Technologies
-
-
 <p align="left">
   <img src="https://img.shields.io/badge/C-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Java-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
@@ -56,9 +53,4 @@ e4f5a6b (feat/add-readme) feat(readme): add initial profile config about myself
   <img src="https://img.shields.io/badge/Css-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
    <img src="https://img.shields.io/badge/Javascript-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
 </p>
-
-
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-languages/?username=george-mastro&layout=compact&theme=dracula&hide_border=true" alt="Top Languages" />
-</div>
+> and maybe some more
