@@ -1,12 +1,5 @@
 ```bash
-┌──(george㉿mastro)-[~/Projects/personal_info] (main ✔)
-└─$ git checkout -b feat/add-readme && cat about_me.json | tail -n 9
-
-┌──(george㉿mastro)-[~/Projects/personal_info] (feat/add-readme ✔)
-└─$ git commit -am "feat(readme): add initial profile config" && git checkout -b feat/skillset
-
-┌──(george㉿mastro)-[~/Projects/personal_info] (feat/skillset ✔)
-└─$ grep -iE "technology|confidence_level" about_me.json || find . -name "*.svg" && git commit -am "feat(skills): configure language & toolset badges" && git log -2 --oneline
+$ grep -iE "technology|confidence_level" about_me.json 
 
 ```
 <p align="left">
